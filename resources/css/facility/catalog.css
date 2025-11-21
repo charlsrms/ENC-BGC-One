@@ -493,9 +493,9 @@
 
 .facility-detail-panel .btn-facility-primary:hover,
 .facility-detail-panel .btn-facility-secondary:hover {
-  background: rgba(255, 255, 255, 0.25);
-  color: #fff;
-  border-color: rgba(255, 255, 255, 0.45);
+  background: #fff;
+  color: #001840cc;
+  border-color: #001840;
 }
 
 .facility-detail-panel .facility-footnote {

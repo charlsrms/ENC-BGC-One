@@ -225,33 +225,58 @@ body {
     padding: 6px 14px;
     border-radius: 6px;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 25px;
     text-decoration: none;
+    cursor: pointer;
+
+    /* Smooth animation */
+    transition: all 0.25s ease;
 }
 
+/* --- Browse Button --- */
 .btn-browse {
     background: white;
     border: none;
     color: #1c398e;
-    cursor: pointer;
     height: 32px;
+
+    /* subtle shadow */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .btn-browse:hover {
     background: #f1f5f9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
 }
 
+.btn-browse:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* --- New Booking Button --- */
 .btn-new-booking {
     background: rgba(25, 60, 184, 0.5);
     border: 0.8px solid #155dfc;
     color: white;
-    cursor: pointer;
     height: 32px;
+
+    /* subtle shadow */
+    box-shadow: 0 2px 6px rgba(21, 93, 252, 0.25);
 }
 
 .btn-new-booking:hover {
     background: rgba(25, 60, 184, 0.7);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(21, 93, 252, 0.35);
 }
+
+.btn-new-booking:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(21, 93, 252, 0.25);
+}
+
 
 .hero-stats {
     display: flex;
@@ -1129,6 +1154,7 @@ body {
     font-size: 13px;
     text-decoration: none;
     transition: all 0.16s ease;
+    line-height: 20px;
 }
 
 .wizard-calendar-scope__btn:hover {

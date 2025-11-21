@@ -143,6 +143,8 @@ body {
   background: #fff;
   color: var(--booking-blue);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+
 }
 
 .btn-pill--ghost {
